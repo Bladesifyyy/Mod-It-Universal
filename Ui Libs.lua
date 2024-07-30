@@ -749,7 +749,7 @@ function library:Introduction()
     barLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
     barLayout.SortOrder = Enum.SortOrder.LayoutOrder
     
-    xsxLogo.Name = "Loading"
+    xsxLogo.Name = "xsxLogo"
     xsxLogo.Parent = background
     xsxLogo.AnchorPoint = Vector2.new(0.5, 0.5)
     xsxLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -757,32 +757,32 @@ function library:Introduction()
     xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     xsxLogo.Size = UDim2.new(0, 448, 0, 150)
     xsxLogo.Visible = true
-    xsxLogo.Image = "http://www.roblox.com/asset/?id=9365068051"
+    xsxLogo.Image = "http://www.roblox.com/asset/?id=11723817205"
     xsxLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
     xsxLogo.ImageTransparency = 1
     
-    hashLogo.Name = "Logo"
-    hashLogo.Parent = background
-    hashLogo.AnchorPoint = Vector2.new(0.5, 0.5)
-    hashLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    hashLogo.BackgroundTransparency = 1.000
-    hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
-    hashLogo.Size = UDim2.new(0, 150, 0, 150)
-    hashLogo.Visible = true
-    hashLogo.Image = "http://www.roblox.com/asset/?id=11867351018"
-    hashLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
-    hashLogo.ImageTransparency = 1
+    ModLogo.Name = "ModLogo"
+    ModLogo.Parent = background
+    ModLogo.AnchorPoint = Vector2.new(0.5, 0.5)
+    ModLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    ModLogo.BackgroundTransparency = 1.000
+    ModLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
+    ModLogo.Size = UDim2.new(0, 150, 0, 150)
+    ModLogo.Visible = true
+    ModLogo.Image = "http://www.roblox.com/asset/?id=11867351018"
+    ModLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
+    ModLogo.ImageTransparency = 1
     
-    xsx.Name = "Mod It"
-    xsx.Parent = background
-    xsx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    xsx.BackgroundTransparency = 1.000
-    xsx.Size = UDim2.new(0, 80, 0, 21)
-    xsx.Font = Enum.Font.Code
-    xsx.Text = "powered by xsx libs"
-    xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
-    xsx.TextSize = 10.000
-    xsx.TextTransparency = 1
+    ModIt.Name = "Mod It"
+    ModIt.Parent = background
+    ModIt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    ModIt.BackgroundTransparency = 1.000
+    ModIt.Size = UDim2.new(0, 80, 0, 21)
+    ModIt.Font = Enum.Font.Code
+    ModIt.Text = "powered by: xsx libs"
+    ModIt.TextColor3 = Color3.fromRGB(124, 124, 124)
+    ModIt.TextSize = 10.000
+    ModIt.TextTransparency = 1
     
     text.Name = "text"
     text.Parent = background
@@ -791,7 +791,7 @@ function library:Introduction()
     text.Position = UDim2.new(0.912751675, 0, 0, 0)
     text.Size = UDim2.new(0, 26, 0, 21)
     text.Font = Enum.Font.Code
-    text.Text = "hash"
+    text.Text = "Mod It"
     text.TextColor3 = Color3.fromRGB(124, 124, 124)
     text.TextSize = 10.000
     text.TextTransparency = 1
