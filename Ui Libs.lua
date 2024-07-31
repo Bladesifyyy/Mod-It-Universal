@@ -1,7 +1,7 @@
 --[[
   UI lib made by bungie#0001
   all the scripts are written and made By Bladesify
-  just saying this is xsx ui not a ui created by me...
+  just saying this is xsx ui not a ui created by me... but i didnt even use it just took the watermark and loading screen
 ]]
 
 -- / Locals
@@ -26,7 +26,7 @@ local TweenTable = {
 }
 local CreateTween = function(name, speed, style, direction, loop, reverse, delay)
     name = name
-    speed = speed or 0.17
+    speed = speed or 0.18
     style = style or Enum.EasingStyle.Sine
     direction = direction or Enum.EasingDirection.InOut
     loop = loop or 0
@@ -757,8 +757,8 @@ function library:Introduction()
     xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     xsxLogo.Size = UDim2.new(0, 448, 0, 150)
     xsxLogo.Visible = true
-    xsxLogo.Image = "http://www.roblox.com/asset/?id=7051824015"
-    xsxLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
+    xsxLogo.Image = "http://www.roblox.com/asset/?id=9365068051"
+    xsxLogo.ImageColor3 = Color3.fromRGB(255, 255, 255)
     xsxLogo.ImageTransparency = 1
     
     hashLogo.Name = "hashLogo"
@@ -779,7 +779,7 @@ function library:Introduction()
     xsx.BackgroundTransparency = 1.000
     xsx.Size = UDim2.new(0, 80, 0, 21)
     xsx.Font = Enum.Font.Code
-    xsx.Text = "powered by xsx"
+    xsx.Text = "powered by BladeLua"
     xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
     xsx.TextSize = 10.000
     xsx.TextTransparency = 1
